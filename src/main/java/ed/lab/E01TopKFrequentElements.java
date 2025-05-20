@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class E01TopKFrequentElements {
+    //primero
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> freq = new HashMap<>();
         for (int num : nums) {

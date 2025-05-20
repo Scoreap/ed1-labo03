@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 class Trie {
+    //segundo
     Trie[] children = new Trie[27]; // 26 English letters and 1 space
     int frequency;
     String word = "";
